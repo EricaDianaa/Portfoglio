@@ -1,0 +1,34 @@
+i{
+    font-size: 7rem;
+}
+
+.col-12,#ChiSono{
+    background-color: #dcc989;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    box-shadow: 5px 5px 15px 5px #FFFFFF;
+}
+.col-12:hover,#ChiSono:hover,#Nav:hover{
+    transform: scale(1.1);
+}
+
+h4{
+    color:rgb(12 121 12);
+    font-weight: bolder;
+}
+body{
+    background-color: black;
+    color: white;
+ 
+}
+footer i{
+    
+    font-size: 1rem;
+}
+@media screen and (max-width:500){
+
+ i{
+    font-size: 3rem;
+}
+
+}
