@@ -22,33 +22,85 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="d-flex justify-content-center" id="Nav">
-      <a
-        href="#ChiSono"
-        class="border border-white text-decoration-none bg-success text-white rounded-pill m-2 p-2"
-        >Chi sono</a
-      >
-      <a
-        href="#Progetti"
-        class="border border-white text-decoration-none bg-success text-white rounded-pill m-2 p-2"
-        >Progetti</a
-      >
-      <a
-        href="#Skils"
-        class="border border-white text-decoration-none bg-success text-white rounded-pill m-2 p-2"
-        >Skils</a
-      >
-      <a
-        href="#Contatti"
-        class="border border-white text-decoration-none bg-success text-white rounded-pill m-2 p-2"
-        >Contatti</a
-      >
-    </div>
-    <div class="d-lg-flex" id="DivFotoChisono">
+    <nav class="navbar navbar-expand-lg" id="Nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Erica Diana</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse align-items-center justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul
+            class="navbar-nav gap-3 text-center align-items-center justify-content-center"
+          >
+            <li class="nav-item">
+              <a
+                href="#ChiSono"
+                class="border border-white text-decoration-none bg-success text-white rounded-pill my-auto p-2 Navli"
+                >Chi sono</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#Progetti"
+                class="border border-white text-decoration-none bg-success text-white rounded-pill my-auto p-2 Navli"
+                >Progetti</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#Skils"
+                class="border border-white text-decoration-none bg-success text-white rounded-pill my-auto p-2 Navli"
+                >Skils</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#Contatti"
+                class="border border-white text-decoration-none bg-success text-white rounded-pill my-auto p-2 Navli"
+                >Contatti</a
+              >
+            </li>
+            <li class="nav-item">
+              <button
+                id="buttonLigth"
+                class="border border-white bg-success btn rounded-pill Navli"
+              >
+                <i
+                  id="i"
+                  class="fa-solid fa-moon p-1"
+                  style="color: #000000; font-size: 1.5rem;"
+                ></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex justify-content-center align-items-center"></div>
+
+    <div class="d-md-flex" id="DivFotoChisono">
       <img
-        class="rounded-pill d-flex justify-content-center w-25 mx-auto m-2 border border-black"
+        class="rounded-pill d-flex justify-content-center w-25 h-25 mx-auto m-2 border border-black"
         src="Img/Immagine Erica.jpg"
         alt="Erica Diana"
       />
@@ -70,13 +122,25 @@
         </div>
       </div>
     </div>
+    <div class="text-center mt-4">
+      <a
+        href="/Curriculum/Curriculum  Erica Diana.pdf"
+        download=""
+        class="text-success text-center"
+        ><i
+          class="fa-solid fa-download text-success"
+          style="font-size: 1.5rem;"
+        ></i>
+        Scarica curriculum
+      </a>
+    </div>
 
     <div id="Progetti" class="container">
-      <h3 class="text-center text-success">I miei progetti</h3>
+      <h3 class="text-center text-success mt-4">I miei progetti</h3>
       <div class="row justify-content-center" id="rowProgetti"></div>
     </div>
 
-    <div id="Skils" class="text-center mt-3 mb-3">
+    <div id="Skils" class="text-center mt-4 mb-3">
       <h3 class="text-center text-success">Le mie competenze</h3>
       <i class="devicon-html5-plain colored"></i>
 
@@ -98,7 +162,7 @@
 
       <i class="devicon-jquery-plain colored"></i>
 
-      <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
+      <i class="devicon-microsoftsqlserver-plain-wordmark text-white"></i>
 
       <i class="devicon-git-plain colored"></i>
 
@@ -106,17 +170,26 @@
       <i class="devicon-vscode-plain-wordmark colored"></i>
     </div>
 
-    <footer class="text-center text-success" id="Contatti">
-      <h3>Contatti</h3>
-      <strong> <i class="fa-solid fa-envelope"></i> : </strong
-      ><a class="text-success" href="mailto:ericadiana2003@gmail.com"
-        >ericadiana2003@gmail.com</a
+    <footer
+      class="text-center text-success border border-top-dark d-flex flex-column justify-content-start"
+      id="Contatti"
+    >
+      <h3 class="mb-2">Contatti</h3>
+
+      <a
+        class="text-success text-decoration-none"
+        href="mailto:ericadiana2003@gmail.com"
       >
-      <a class="text-success" href="https://github.com/EricaDianaa"
+        <i class="fa-solid fa-envelope"></i>
+        ericadiana2003@gmail.com</a
+      >
+      <a
+        class="text-success text-decoration-none"
+        href="https://github.com/EricaDianaa"
         ><i class="fa-brands fa-github"></i> Github</a
       >
       <a
-        class="text-success"
+        class="text-success text-decoration-none mb-3"
         href="https://www.linkedin.com/in/erica-diana-full-stack-developer/"
         ><i class="fa-brands fa-linkedin"></i> Linkedin</a
       >

@@ -6,9 +6,9 @@ i{
     background-color: #dcc989;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:bolder;
-    box-shadow: 5px 5px 15px 5px #FFFFFF;
+    box-shadow: 5px 5px 15px 5px black;
 }
-.col-12:hover,#ChiSono:hover,#Nav:hover{
+#ChiSono:hover,.Navli:hover{
     transform: scale(1.1);
 }
 
@@ -16,19 +16,65 @@ h4{
     color:rgb(12 121 12);
     font-weight: bolder;
 }
-body{
-    background-color: black;
-    color: white;
+h3,h4,footer a{
+    font-family: 'Lemon', serif; 
+      -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;   
+}
+body{ 
+     background-color: #fffee1;
+    color: white;  
+    font-family: 'Lemon', serif;
+
  
 }
 footer i{
     
     font-size: 1rem;
 }
-@media screen and (max-width:500){
+@media screen and (max-width: 500px) {
+    i {
+        font-size: 3rem;
+    }
 
- i{
-    font-size: 3rem;
+}
+@media screen and (min-width: 500px) {
+    i {
+        font-size: 4rem;
+    }
+
+}
+.bodyWhite{
+  
+    background-color: black;
+    color: black;
 }
 
+footer{
+    background-color: #f3f6ba;
+}
+footer a:hover{
+ color: black !important;
+}
+@media screen and (min-width: 575px) {
+
+.col-12:hover{
+    transform: scale(1.1);
+}
+
+}
+@media screen and (max-width: 575px) {
+    #Progetti {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 760px) {
+    #ChiSono {
+      width: 75% !important;
+    }
+}
+@media screen and (min-width: 1000px) {
+.navbar-brand{
+margin-left: 290px;
+}
 }
