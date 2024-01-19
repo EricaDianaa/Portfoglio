@@ -162,7 +162,7 @@ let footer=document.querySelector("footer")
 let nav=document.querySelector("nav");
 let iconSql=document.getElementById("sql")
 
-//al click del bottone inserisco la classe css
+//al click del bottone inserisco le classi css
 buttonLigth.addEventListener("click", function(){
   body.classList.toggle("bodyWhite");
   i.classList.toggle("fa-moon")
@@ -179,4 +179,8 @@ buttonLigth.addEventListener("click", function(){
 })
 
 
+
+
+
 //Cambio lingua
+
