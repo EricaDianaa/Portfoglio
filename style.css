@@ -1,9 +1,7 @@
 body{ 
-     background-color: #fffee1;
+    background-color: #fffee1;
     color: white;  
     font-family: 'Lemon', serif;
-
- 
 }
 
 i{
@@ -18,8 +16,14 @@ i{
 }
 
 footer i{
-    
     font-size: 1rem;
+}
+
+footer,nav{
+    background-color: #f3f6ba;
+}
+footer a {
+    color: #b3bdc5;
 }
 
 .bodyWhite{
@@ -28,9 +32,6 @@ footer i{
     color: black;
 }
 
-footer,nav{
-    background-color: #f3f6ba;
-}
 
 h4{
     color:rgb(12 121 12);
@@ -38,7 +39,7 @@ h4{
 }
 h3,h4,footer a{
     font-family: 'Lemon', serif; 
-      -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;   
 }
 
@@ -85,4 +86,9 @@ margin-left: 290px;
         font-size: 4rem;
     }
 
+}
+@media (max-width: 991px){
+nav ul li {
+  width: 100%;
+}
 }

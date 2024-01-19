@@ -25,7 +25,7 @@ const TextProgetto=[
        id:3,
         title:"Spotify clone",
         img:"/Img/Spotify clone.png",
-        description:"Clone di Spotify attraverso CSS, Bootstrap e Javascript usando un API-REST.Creato con funzionalità Javascript come riproduzione della musica per ogni artista, ricerca artisti o musica specifica, possibilità di cercare un album e di visualizzarne i dettagli.",
+        description:"Clone di Spotify attraverso CSS, Bootstrap e Javascript usando un API-REST.<br>Creato con funzionalità Javascript come riproduzione della musica per ogni artista, ricerca artisti o musica specifica, possibilità di cercare un album e di visualizzarne i dettagli.",
         github:"https://github.com/giov-scar/U2-W8-BW2-FS0323-TEAM5",
         skils:"HTML, CSS, Javascript, SCSS,BOOTSTRAP",
         video:"/Video/Spotify video.mp4"
@@ -34,7 +34,7 @@ const TextProgetto=[
       id:4,
       title:"Linkedin Clone",
       img:"/Img/Linkedin.png",
-      description:"Clone di LinkedIn attraverso l'utilizzo di Angular con chiamate HTTP a un API-REST.Il progetto quindi prevede la pagina principale con tutti i post creati dagli utenti(con possibilità di crearne di nuovi modificarli o eliminarli) con relativi commenti, pagina dettaglio utente, pagina profilo con la possibilità di implementare esperienze modificarle o eliminarle.",
+      description:"Clone di LinkedIn attraverso l'utilizzo di Angular con chiamate HTTP a un API-REST.<br>Il progetto prevede: <br>1. La pagina principale con tutti i post creati dagli utenti(con possibilità di crearne di nuovi modificarli o eliminarli)<br>2. Commenti per ogni post;<br>3. Pagina dettaglio utente; <br> 4. Pagina profilo con la possibilità di implementare esperienze modificarle o eliminarle.",
       github:"https://github.com/mirkoparente/BW3TEAM4LINKEDIN",
       skils:"HTML, CSS, Angular,Javascript,Bootstrap",
       video:"/Video/Linkedin video.mp4"
@@ -43,7 +43,7 @@ const TextProgetto=[
        id:5,
         title:"Pizzeria",
         img:"/Img/Pizzeria.png",
-        description:"Creazione di un sito per una pizzeria attraverso .NET ASP.NET MVC e Entity-Framework e l'utilizzo di AJAX, Jquery, CSS e BOOTSTRAP. Il sito prevede la pagina menu con tutte le pizze, pagina dettaglio per ogni pizza, la possibilità di acquistare delle pizze aggiungendole al carrello. La parte admin invece ha la possibilità di vedere tutti gli ordini, i clienti e il resoconto delle giornate con relativo incasso.",
+        description:"Creazione di un sito per una pizzeria attraverso .NET ASP.NET MVC e Entity-Framework e l'utilizzo di AJAX, Jquery, CSS e BOOTSTRAP. Il sito prevede:<br> 1.  La pagina menu con tutte le pizze; <br> 2. Pagina dettaglio per ogni pizza; <br>3. Possibilità di acquistare delle pizze aggiungendole al carrello.<br> 4. La parte admin invece ha la possibilità di vedere tutti gli ordini, i clienti e il resoconto delle giornate con relativo incasso.",
         github:"https://github.com/EricaDianaa/w16-1",
         skils:"HTML, CSS, C#, ASP.NET MVC, AJAX, JQUERY,BOOTSTRAP",
         video:"/Video/Pizzeria video.mp4"
@@ -51,7 +51,7 @@ const TextProgetto=[
        id:6,
         title:"Clinica veterinaria",
         img:"/Img/Clinica.png",
-        description:"Creazione di un sito per una clinica veterinaria attraverso .NET, ASP.NET MVC e Entity-Framework e l'utilizzo di AJAX, Jquery, CSS e BOOTSTRAP.Il sito prevede la possibilità di ricercare un animale smarrito attraverso il microchip, prenotazione di un animale, possibilità di vedere le visite effettuate. La Clinica ha un area riservata anche alle farmacie.",
+        description:"Creazione di un sito per una clinica veterinaria attraverso .NET, ASP.NET MVC e Entity-Framework e l'utilizzo di AJAX, Jquery, CSS e BOOTSTRAP.Il sito prevede: <br> 1. Possibilità di ricercare un animale smarrito attraverso il microchip; <br> 2.  Prenotazione di un animale; <br> 3. Possibilità di vedere le visite effettuate. La Clinica ha un area riservata anche alle farmacie per aggiungere prodotti vedere i relattivi acquisti e vedere la possizione di tutti i prodotti.",
         github:"https://github.com/EricaDianaa/ClinicaVeterinaria",
         skils:"HTML, CSS, C#, ASP.NET MVC, AJAX,Entity-framework, JQUERY,BOOTSTRAP",
         video:"/Video/Clinica veterinaria video.mp4"
@@ -59,15 +59,15 @@ const TextProgetto=[
        id:7,
         title:"TourSardigna",
         img:"/Img/TourSardigna.png",
-        description:"TourSardigna è un sito per eventi in tutta la Sardegna come musei, feste, spiagge e tanto altro. L’obiettivo è offrire agli utenti un modo semplice e veloce per organizzare giornate uniche, senza stress eccessivo. Allo stesso tempo, mira a fornire alle aziende uno strumento efficace per promuovere i propri eventi, raggiungendo il più ampio pubblico possibile. Il progetto è creato tramite l'utilizzo dei seguenti linguaggi: .NET, C#, ASP.NET MVC, Entity-Framework, AJAX, Jquery, CSS, Bootstrap, SQL,LINQ.Funzionalità:1. Registrazione utenti e aziende e login ;   2. Homepage con eventi creati dall'amministratore o da un azienda; 3. Pagina di dettaglio per ogni evento con relative recensioni;4. Possibilità di acquistare un biglietto per un evento;5. Possibilità di salvare un evento in una lista di preferiti;6. Possibilità di lasciare una recensione agli eventi; 7. Gestione degli eventi per Amministratore e Aziende con Create, Edit e Delete;8. Pagina di resoconto dei guadagni con l'aggiunta di grafici.",
+        description:"TourSardigna è un sito per eventi in tutta la Sardegna come musei, feste, spiagge e tanto altro. L’obiettivo è offrire agli utenti un modo semplice e veloce per organizzare giornate uniche, senza stress eccessivo. Allo stesso tempo, mira a fornire alle aziende uno strumento efficace per promuovere i propri eventi, raggiungendo il più ampio pubblico possibile.<br> Funzionalità: <br>1. Registrazione utenti e aziende e login ; <br>  2. Homepage con eventi creati dall'amministratore o da un azienda;<br> 3. Pagina di dettaglio per ogni evento con relative recensioni; <br> 4. Possibilità di acquistare un biglietto per un evento;<br>5. Possibilità di salvare un evento in una lista di preferiti; <br>6. Possibilità di lasciare una recensione agli eventi;<br> 7. Gestione degli eventi per Amministratore e Aziende con Create, Edit e Delete;<br>8. Pagina di resoconto dei guadagni con l'aggiunta di grafici.",
         github:"https://github.com/EricaDianaa/Capstone",
-        skils:"HTML, CSS, C#, ASP.NET MVC,,Entity-framework AJAX, JQUERY,BOOTSTRAP",
+        skils:"HTML, .NET, C#, ASP.NET MVC, Entity-Framework, AJAX, Jquery, CSS, Bootstrap, SQL,LINQ",
         video:"/Video/TourSardigna video.mp4"
     }, {
         id:8,
         title:"TheJobSearch",
         img:"/Img/TheJobSearch.png",
-        description:"Il progetto è ancora in fase di sviluppo per ora le funzionalità presenti sono1. Autenticazione utente, azienda e amministratore 2. Homepage con vari annunci con possibilità di filtrarli e vederne i dettagli3. Profilo con tutte le informazioni sulle tue esperienze competenze ecc4. Possibilità di vedere le candidature inviate e vedere tutti gli aggiornamenti 5. Sezione privata per azienda e amministratore con possibilità di creare annunci e vedere le candidature per ognuno di essi.Devo implementare infine: 1. Un sistema per l'invio di email per la conferma e per la comunicazione in caso di candidatura andata a buon fine2. Sistema per il salvataggio dei diversi annunci",
+        description:"Il progetto è ancora in fase di sviluppo per ora le funzionalità presenti sono: <br>1. Autenticazione utente, azienda e amministratore; <br> 2. Homepage con vari annunci con possibilità di filtrarli e vederne i dettagli; <br>3. Profilo con tutte le informazioni sulle tue esperienze competenze ecc; <br>4. Possibilità di vedere le candidature inviate e vedere tutti gli aggiornamenti; <br> 5. Sezione privata per azienda e amministratore con possibilità di creare annunci e vedere le candidature per ognuno di essi. <br>Devo implementare infine:<br> 1. Un sistema per l'invio di email per la conferma e per la comunicazione in caso di candidatura andata a buon fine; <br>2. Sistema per il salvataggio dei diversi annunci",
         github:"https://github.com/EricaDianaa/TheJobSearch",
         skils:"HTML, CSS, C#, ASP.NET MVC,,Entity-framework AJAX, JQUERY,BOOTSTRAP",
         video:""
@@ -160,7 +160,8 @@ let body=document.querySelector("body");
 let i= document.getElementById("i");
 let footer=document.querySelector("footer")
 let nav=document.querySelector("nav");
-console.log(nav)
+let iconSql=document.getElementById("sql")
+
 //al click del bottone inserisco la classe css
 buttonLigth.addEventListener("click", function(){
   body.classList.toggle("bodyWhite");
@@ -168,7 +169,7 @@ buttonLigth.addEventListener("click", function(){
   i.classList.toggle("fa-circle")
   footer.classList.toggle("bg-secondary")
   nav.classList.toggle("bg-secondary")
-  console.log(i.classList)
+  iconSql.classList.toggle("text-white")
   if(i.classList.value==="fa-solid p-1 fa-circle"){
       i.style.color="#FFD43B"
   }else{
@@ -176,34 +177,6 @@ buttonLigth.addEventListener("click", function(){
   }
 
 })
-
-
-//Scarico Curriculum
-let ButtonCurriculum=document.getElementById("ButtonCurriculum")
-// Creare un oggetto Blob con i dati del file
-ButtonCurriculum.addEventListener("click", function(){
-  var blob = new Blob(["Contenuto del file"], { type: "application/pdf" });
-
-// Creare un link temporaneo
-var link = document.createElement("a");
-
-// Impostare l'URL del link con il Blob creato
-link.href = window.URL.createObjectURL(blob);
-
-// Impostare l'attributo download con il nome del file
-link.download = "/Curriculum/Curriculum  Erica Diana.pdf";
-
-// Aggiungere il link al documento
-document.body.appendChild(link);
-
-// Simulare un clic sul link per avviare il download
-link.click();
-
-// Rimuovere il link dopo il download
-document.body.removeChild(link);
-
-})
-
 
 
 //Cambio lingua
