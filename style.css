@@ -1,3 +1,11 @@
+body{ 
+     background-color: #fffee1;
+    color: white;  
+    font-family: 'Lemon', serif;
+
+ 
+}
+
 i{
     font-size: 7rem;
 }
@@ -8,8 +16,20 @@ i{
     font-weight:bolder;
     box-shadow: 5px 5px 15px 5px black;
 }
-#ChiSono:hover,.Navli:hover{
-    transform: scale(1.1);
+
+footer i{
+    
+    font-size: 1rem;
+}
+
+.bodyWhite{
+  
+    background-color: black;
+    color: black;
+}
+
+footer,nav{
+    background-color: #f3f6ba;
 }
 
 h4{
@@ -21,41 +41,17 @@ h3,h4,footer a{
       -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;   
 }
-body{ 
-     background-color: #fffee1;
-    color: white;  
-    font-family: 'Lemon', serif;
 
- 
-}
-footer i{
-    
-    font-size: 1rem;
-}
-@media screen and (max-width: 500px) {
-    i {
-        font-size: 3rem;
-    }
-
-}
-@media screen and (min-width: 500px) {
-    i {
-        font-size: 4rem;
-    }
-
-}
-.bodyWhite{
-  
-    background-color: black;
-    color: black;
-}
-
-footer{
-    background-color: #f3f6ba;
+/* Hover */
+#ChiSono:hover,.Navli:hover{
+    transform: scale(1.1);
 }
 footer a:hover{
- color: black !important;
-}
+    color: green !important;
+   }
+
+
+/* Media query */
 @media screen and (min-width: 575px) {
 
 .col-12:hover{
@@ -77,4 +73,16 @@ footer a:hover{
 .navbar-brand{
 margin-left: 290px;
 }
+}
+@media screen and (max-width: 500px) {
+    i {
+        font-size: 3rem;
+    }
+
+}
+@media screen and (min-width: 500px) {
+    i {
+        font-size: 4rem;
+    }
+
 }
